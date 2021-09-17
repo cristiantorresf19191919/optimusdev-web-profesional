@@ -37,7 +37,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js",
-    "prodExpress":"npm run prod && node src/server/main.js"
+    "prodExpress": "npm run prod && node src/server/main.js",
+    "start":"npm run prod && node src/server/main.js"
   },
   "repository": {
     "type": "git",
